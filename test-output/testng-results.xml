@@ -2,24 +2,28 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-08-27T23:19:15 IST" name="Default suite" finished-at="2024-08-27T23:19:19 IST" duration-ms="3710">
+  <suite started-at="2024-08-28T23:48:11 IST" name="Default suite" finished-at="2024-08-28T23:48:20 IST" duration-ms="9049">
     <groups>
     </groups>
-    <test started-at="2024-08-27T23:19:15 IST" name="Default test" finished-at="2024-08-27T23:19:19 IST" duration-ms="3710">
-      <class name="Selenium.pom.com.test.ProductTest">
-        <test-method is-config="true" signature="setBrowser()[pri:0, instance:Selenium.pom.com.test.ProductTest@f78a47e]" started-at="2024-08-27T23:19:15 IST" name="setBrowser" finished-at="2024-08-27T23:19:18 IST" duration-ms="2865" status="PASS">
+    <test started-at="2024-08-28T23:48:11 IST" name="Default test" finished-at="2024-08-28T23:48:20 IST" duration-ms="9049">
+      <class name="part3_4.com.demoqa.base.JavaScriptTest">
+        <test-method is-config="true" signature="browserSetUp()[pri:0, instance:part3_4.com.demoqa.base.JavaScriptTest@54c5a2ff]" started-at="2024-08-28T23:48:11 IST" name="browserSetUp" finished-at="2024-08-28T23:48:12 IST" duration-ms="1873" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- setBrowser -->
-        <test-method signature="productHeaderIsDisplayed()[pri:0, instance:Selenium.pom.com.test.ProductTest@f78a47e]" started-at="2024-08-27T23:19:18 IST" name="productHeaderIsDisplayed" finished-at="2024-08-27T23:19:18 IST" duration-ms="535" status="PASS">
+        </test-method> <!-- browserSetUp -->
+        <test-method is-config="true" signature="loadApplication()[pri:0, instance:part3_4.com.demoqa.base.JavaScriptTest@54c5a2ff]" started-at="2024-08-28T23:48:12 IST" name="loadApplication" finished-at="2024-08-28T23:48:16 IST" duration-ms="3563" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- productHeaderIsDisplayed -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:Selenium.pom.com.test.ProductTest@f78a47e]" started-at="2024-08-27T23:19:18 IST" name="tearDown" finished-at="2024-08-27T23:19:19 IST" duration-ms="230" status="PASS">
+        </test-method> <!-- loadApplication -->
+        <test-method signature="testScrollToElements()[pri:0, instance:part3_4.com.demoqa.base.JavaScriptTest@54c5a2ff]" started-at="2024-08-28T23:48:16 IST" name="testScrollToElements" finished-at="2024-08-28T23:48:16 IST" duration-ms="236" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testScrollToElements -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:part3_4.com.demoqa.base.JavaScriptTest@54c5a2ff]" started-at="2024-08-28T23:48:16 IST" name="tearDown" finished-at="2024-08-28T23:48:20 IST" duration-ms="3309" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-      </class> <!-- Selenium.pom.com.test.ProductTest -->
+      </class> <!-- part3_4.com.demoqa.base.JavaScriptTest -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
