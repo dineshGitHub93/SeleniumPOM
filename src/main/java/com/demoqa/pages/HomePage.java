@@ -2,6 +2,7 @@ package com.demoqa.pages;
 
 import org.openqa.selenium.By;
 
+import com.demoqa.pages.elements.ElementPage;
 import com.saucedemo.pages.BasePage;
 import static com.selenium.utilities.JavaScriptUtilities.*;
 

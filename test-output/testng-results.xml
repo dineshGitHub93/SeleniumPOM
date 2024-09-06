@@ -2,28 +2,28 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-08-30T00:14:05 IST" name="Default suite" finished-at="2024-08-30T00:14:15 IST" duration-ms="9439">
+  <suite started-at="2024-09-06T21:30:24 IST" name="Default suite" finished-at="2024-09-06T21:30:34 IST" duration-ms="9502">
     <groups>
     </groups>
-    <test started-at="2024-08-30T00:14:05 IST" name="Default test" finished-at="2024-08-30T00:14:15 IST" duration-ms="9439">
-      <class name="part3_4.com.demoqa.base.CheckBoxTest">
-        <test-method is-config="true" signature="browserSetUp()[pri:0, instance:part3_4.com.demoqa.base.CheckBoxTest@54c5a2ff]" started-at="2024-08-30T00:14:05 IST" name="browserSetUp" finished-at="2024-08-30T00:14:07 IST" duration-ms="1874" status="PASS">
+    <test started-at="2024-09-06T21:30:24 IST" name="Default test" finished-at="2024-09-06T21:30:34 IST" duration-ms="9502">
+      <class name="part3_4.com.demoqa.base.SelectingDateTest">
+        <test-method is-config="true" signature="browserSetUp()[pri:0, instance:part3_4.com.demoqa.base.SelectingDateTest@54c5a2ff]" started-at="2024-09-06T21:30:24 IST" name="browserSetUp" finished-at="2024-09-06T21:30:26 IST" duration-ms="1768" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- browserSetUp -->
-        <test-method is-config="true" signature="loadApplication()[pri:0, instance:part3_4.com.demoqa.base.CheckBoxTest@54c5a2ff]" started-at="2024-08-30T00:14:07 IST" name="loadApplication" finished-at="2024-08-30T00:14:10 IST" duration-ms="3170" status="PASS">
+        <test-method is-config="true" signature="loadApplication()[pri:0, instance:part3_4.com.demoqa.base.SelectingDateTest@54c5a2ff]" started-at="2024-09-06T21:30:26 IST" name="loadApplication" finished-at="2024-09-06T21:30:29 IST" duration-ms="3496" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- loadApplication -->
-        <test-method signature="testCheckBoxFuntion()[pri:0, instance:part3_4.com.demoqa.base.CheckBoxTest@54c5a2ff]" started-at="2024-08-30T00:14:10 IST" name="testCheckBoxFuntion" finished-at="2024-08-30T00:14:11 IST" duration-ms="913" status="PASS">
+        <test-method signature="selectingDateTest()[pri:0, instance:part3_4.com.demoqa.base.SelectingDateTest@54c5a2ff]" started-at="2024-09-06T21:30:29 IST" name="selectingDateTest" finished-at="2024-09-06T21:30:30 IST" duration-ms="882" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- testCheckBoxFuntion -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:part3_4.com.demoqa.base.CheckBoxTest@54c5a2ff]" started-at="2024-08-30T00:14:11 IST" name="tearDown" finished-at="2024-08-30T00:14:15 IST" duration-ms="3395" status="PASS">
+        </test-method> <!-- selectingDateTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:part3_4.com.demoqa.base.SelectingDateTest@54c5a2ff]" started-at="2024-09-06T21:30:30 IST" name="tearDown" finished-at="2024-09-06T21:30:34 IST" duration-ms="3294" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-      </class> <!-- part3_4.com.demoqa.base.CheckBoxTest -->
+      </class> <!-- part3_4.com.demoqa.base.SelectingDateTest -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

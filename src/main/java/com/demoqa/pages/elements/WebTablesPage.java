@@ -1,6 +1,7 @@
-package com.demoqa.pages;
+package com.demoqa.pages.elements;
 
 import org.openqa.selenium.By;
+
 import static com.selenium.utilities.JavaScriptUtilities.*;
 
 public class WebTablesPage extends ElementPage {

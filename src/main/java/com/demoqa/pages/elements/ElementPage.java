@@ -1,6 +1,8 @@
-package com.demoqa.pages;
+package com.demoqa.pages.elements;
 
 import org.openqa.selenium.By;
+
+import com.demoqa.pages.HomePage;
 
 public class ElementPage extends HomePage{
 	
