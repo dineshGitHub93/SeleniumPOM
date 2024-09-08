@@ -18,6 +18,7 @@ public class Utilities{
 	public static WebDriver driver;
 	WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(5));
 	WebElement element;
+	//BasePage basePage = new BasePage();
 	
 
 	public static void setUtilityDriver() {
@@ -55,6 +56,27 @@ public class Utilities{
 		return allSelectedOptions.stream().map(WebElement::getText).collect(Collectors.toList());
 		
 	}
+	
+	//Alert utilities
+	private static WebDriver.TargetLocator switchTo(){
+		return driver.switchTo();
+	}
+	
+	public static String getAlertText() {
+		return switchTo().alert().getText();
+	}
+	
+	public static void acceptAlert() {
+		switchTo().alert().accept();
+	}
+	public static void sendValueToPrompt(String text) {
+		switchTo().alert().sendKeys(text);
+	}
+	
+	public static void dismissAlert() {
+		switchTo().alert().dismiss();
+	}
+	
 	//Generate A Random number
 	
 	//Return Strings To UpperCase
